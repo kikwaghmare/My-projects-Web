@@ -1,66 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
+    <title>Assignment2</title>
+    </head>
 <body>
-    <h1>Forms</h1>
-    <br>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="fname" name="name" value=""><br>
-        <br>
-        <label for="email">Email address:</label>
-        <input type="text" id="email" name="email" value="" required><br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" value="" minlength="4" maxlength="12"><br><br>
+    <form action="index.html"><br><br>
+    Name 
+    <input type="Name"  name="Name" placeholder="Name" required><br><br>
+    Email Address
+    <input type="Email" name="Email" placeholder="E-mail" required><br><br>
+    Password   
+    <input type="password" name="Password" placeholder="Password" required> 
+ 
+ <br><br>Language<br><br>
+ 
+ <input type="radio" id="React" name="Language">React<br>
+ <input type="radio" id="Angular" name="Language">Angular<br>
+<input type="radio"id="Vue" name="Language">Vue
+    
+<br><br>Course<br><br>
 
-        <label for="">Languages</label>
-        <br><br>
-        <input type="radio" id="html" name="fav_language" value="HTML">
-        <label for="html">React</label><br>
-        <input type="radio" id="css" name="fav_language" value="CSS">
-        <label for="css">Angular</label><br>
-        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-        <label for="javascript">Vue</label> <br><br>
+<input type="checkbox" required>MERN<BR>
+<input type="checkbox">MEAN<br>
+<input type="checkbox">MEVN
+<br><br>Field:<br>
+    <select required>
+        <option>---Choose one to select---</option>
+        <option value="FRONT END">FRONT END</option>
+        <option value="BACK END">BACK END</option>
+        <option value="FULL STACK">FULL STACK</option>
+    </select><br><br>
 
-        <label for="">Course</label>
-        <br><br>
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-        <label for="vehicle1"> MERN</label><br>
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-        <label for="vehicle2">MEAN</label><br>
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-        <label for="vehicle3">MEVN</label><br><br>
 
-        <label>Field: </label><br>
-<select>
-<option value = "front_end"> Front End 
-</option>
-<option value = "back_end"> Back End 
-</option>
-<option value = "full_stack"> Full Stack
-</option>
-</select><br>
-        <textarea name="message" rows="10" cols="30">
-            
-            </textarea>
-        <br><br>
+<textarea name="Random text area" placeholder="Random text" id="" cols="30" rows="10"></textarea><br>
+    
+Phone Number 
+<input type="number" placeholder="Number" required>
+<input type="submit" value="submit">
+<!-- <button>submit</button> -->
+</form>
 
-        <label for="phone">Phone Number:</label>
-        <input type="text" id="phone" name="phone" value="">
-        <input type="submit" value="Submit" formtarget="_blank">
-    </form>
 
-    <h1>TABLES</h1>
-
-<a href="tables.html">Click here</a>
+<h1>TABLES</h1>
+<a href="tables.html">click here</a>
 
 </body>
-
 </html>
