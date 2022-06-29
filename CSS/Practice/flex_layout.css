@@ -1,0 +1,17 @@
+.flex-container{
+    padding: 2rem;
+    background-color: blue;
+    color: aliceblue;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.flex-items{
+    background-color: tomato;
+    padding: 30px;
+    margin: 2px;
+    width: 200px;
+    height: ;
+}
