@@ -1,17 +1,39 @@
 body{
-
+    color:brown
 }
-h1{
-    color: red;
+#ulList{
+   letter-spacing:7px;
+}
+h1,h2{
+    color:rgb(211, 0, 0);
 }
 h2{
-    color: red;
-    font-style: italic;
-}
-#prepbytes{
-   color: red;
    font-style: italic; 
 }
-.span-text{
+.spanText{
+    font-style:italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.td{
+    text-decoration:line-through;
+}
+.thr{
+    
+    background-color:yellow;
+    font-weight: bold;
 
+}
+.th{
+        background-color:yellow;
+        font-weight:bold;
+        
+}
+a{
+    text-decoration: none;
+    font-style:italic;
+    color:tomato;
+}
+.lastPara{
+    font-size: large;
 }
