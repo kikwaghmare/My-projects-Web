@@ -1,8 +1,15 @@
 display behaviour - inline/block
+
 flex layout model
     flex direction prooerty 
               flex-direction - column, row
     justify content (this property only work for flex property)
               main-axis(horizontal)
               cross-axis(verticle)
-              
+----------------------------------------------
+positions
+    static, relative,absolute,fixed & sticky.
+----------------------------------------------------------------
+z-index:    
+filter:              
+------------------------------
