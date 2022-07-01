@@ -10,8 +10,11 @@ body {
     /* border-right-color: green; */
     height: auto;
     background-image: url("resto.jpg");
-   background-size: 100%; 
-   position: relative;
+    background-size: 100%; 
+   /*position: relative; */
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   filter: blur(1px);
 
 
 }
