@@ -14,7 +14,7 @@ body {
    /*position: relative; */
    background-repeat: no-repeat;
    background-attachment: fixed;
-   filter: blur(1px);
+   /* filter: blur(1px); */
 
 
 }
