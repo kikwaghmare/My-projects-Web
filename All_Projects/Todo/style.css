@@ -1,12 +1,38 @@
 body {
   background-color: rgb(235, 226, 226);
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
+
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+
+.title-span {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.add-button{
+position: absolute;
+  top: 64px;
+  right: 250px;
+  font-size: 30px;
+  font-weight: bold;
+
+} 
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 50px;
+  margin-top: 50px;
 }
 
 .grid-item {
@@ -15,8 +41,8 @@ body {
   padding: 20px;
   font-size: 23px;
   margin: 30px;
- box-shadow: 10px 20px 20px black;
- width: 200px;
+  box-shadow: 10px 20px 20px black;
+  width: 200px;
   height: 300px;
   text-align: center;
   border: 2px solid red;
@@ -24,43 +50,45 @@ body {
   color: red;
 
 }
-.container#blur.active{
+
+.container#blur.active {
   filter: blur(20px);
   pointer-events: none;
   user-select: none;
 }
 
-a{
+a {
   position: relative;
   padding: 5px 20px;
   display: inline-block;
   margin-top: 20px;
   text-decoration: none;
   color: #fff;
-  background: rgb (134,43,43);
+  background: rgb (134, 43, 43);
   transition: 1s;
   background-color: #333;
 }
 
-a:hover{
+a:hover {
   transition: 1s;
   background: #2b5c59;
 }
-#popup{
+
+#popup {
   position: fixed;
   top: 40%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  width: 600px;
-  padding: 50px;
+  transform: translate(-50%, -50%);
+  width: 300px;
+
   box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-  background: #fff;
+
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;
 }
 
-#popup.active{
+#popup.active {
   top: 50%;
   visibility: visible;
   opacity: 1;
@@ -68,19 +96,26 @@ a:hover{
 }
 
 
-.material-symbols-outlined{
+.material-symbols-outlined {
   color: red;
+}
 
+.add-task {
+  background-color: white;
+  padding: 5px;
+  border: 5px red;
+  border-radius: 10px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
 }
-.title{
-  font-size: 30px;
-   font-weight: bold;
+.add{
+  width: 70px;
+  border: 3px red;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  padding: 5px;
 }
-.title-span{
-  font-size: 25px;
-  
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-}
+
 /* .heading{
   display:inline;
 float:left;
@@ -93,4 +128,6 @@ width: 200px;
   background: #000;
 width: 200px;
 margin-left: 300px;
-} 
+} */
+
+/* trip-to-paris */
