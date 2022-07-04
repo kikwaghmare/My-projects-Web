@@ -1,7 +1,8 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   border-bottom: 1px solid black;
 }
@@ -116,10 +117,12 @@ table {
   border-collapse: collapse;
 }
 
-#head {
+.head {
   color: white;
   padding-bottom: 15px;
+  letter-spacing: 1px;
   background-color: #dc363e;
+  font-size: 20px;
 }
 
 .cell {
@@ -166,6 +169,7 @@ table {
   border-bottom: 10px solid white;
 }
 
+/* table footer */
 tfoot {
   font-weight: bold;
   font-size: 20px;
