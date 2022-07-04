@@ -37,14 +37,12 @@ header {
   color: rgb(98, 0, 0);
   text-shadow: 2px 1px 3px purple;
   background-color: white;
-  
   font-weight: bold;
   font-size: 27px;
   text-align: center;
-  
   border: 7px solid rgb(226, 99, 52);
   border-radius: 10px;
-  
+  box-shadow: 7px 7px purple;
   box-sizing: border-box;
   position: absolute;
   top: 0;
