@@ -3,8 +3,11 @@
     margin: 20px;
 }
 
+a{
+    text-align: center;
+}
 iframe{
--webkit-filter: blur(3px);
+-webkit-filter: blur(9px);
 filter: blur(3px);
 }
 .box{
