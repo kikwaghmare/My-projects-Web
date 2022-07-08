@@ -1,133 +1,130 @@
-body {
-  background-color: rgb(235, 226, 226);
-  margin: 0;
-  padding: 0;
-  align-items: center;
+body{
+  
+  padding: 0%;
+}
+.cont{
+   width: 90%;
+   height: 600px;
+   margin-top: 100px;
+   margin-left: 300px;
+   background-color: white;
 }
 
-
-.title {
-  font-size: 50px;
-  font-weight: bold;
-  position: absolute;
-  top: 10px;
-  left: 100px;
+.head{
+   width: 100%;
+   /* background-color: blueviolet; */
+   display: inline-block;
+   font-size: 30px;
 }
 
-.title-span {
-  font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-}
-
-.add-button{
-position: absolute;
-  top: 64px;
-  right: 250px;
-  font-size: 30px;
-  font-weight: bold;
-
-} 
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 50px;
-  margin-top: 50px;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 23px;
-  margin: 30px;
-  box-shadow: 10px 20px 20px black;
-  width: 200px;
-  height: 300px;
-  text-align: center;
-  border: 2px solid red;
-  border-radius: 20px;
-  color: red;
-
-}
-
-.container#blur.active {
-  filter: blur(20px);
-  pointer-events: none;
-  user-select: none;
-}
-
-a {
-  position: relative;
-  padding: 5px 20px;
-  display: inline-block;
-  margin-top: 20px;
+.head a{
   text-decoration: none;
-  color: #fff;
-  background: rgb (134, 43, 43);
-  transition: 1s;
-  background-color: #333;
+  color: gray;
 }
 
-a:hover {
-  transition: 1s;
-  background: #2b5c59;
+.task{
+   display:inline-block;
+   padding: 10px;
+   margin-right: 200px;
+   font-size: 60px;
+   margin-top:0px;
+   margin-left:0px;
+   font-family: 'Roboto Condensed', sans-serif;
 }
 
-#popup {
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 300px;
-
-  box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
+.task span{
+  font-family: Segoe UI;
 }
 
-#popup.active {
-  top: 50%;
-  visibility: visible;
-  opacity: 1;
-  transform: 0.5s;
+.icon {
+  display: inline-block;
+  color: #ffC977;
+  vertical-align: middle;
+  margin-top: 2px;
+ }
+
+ .icon img{
+  width: 40px;
+ }
+ .text{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30px;
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
 }
 
-
-.material-symbols-outlined {
-  color: red;
+.task span{
+  color: gray;
+  font-weight: 100;
 }
 
-.add-task {
-  background-color: white;
-  padding: 5px;
-  border: 5px red;
-  border-radius: 10px;
-  box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-}
 .add{
-  width: 70px;
-  border: 3px red;
-  border-radius: 5px;
-  background-color: red;
-  color: white;
-  padding: 5px;
+   display: inline-block;
+   padding: 10px;
+   margin-left: 100px;
+   margin-right:0px;
 }
 
-/* .heading{
-  display:inline;
-float:left;
-text-align: center;
-background: #000;
-width: 200px;
+.red-color {
+  color:red;
 }
 
-.add-button{
-  background: #000;
-width: 200px;
-margin-left: 300px;
-} */
+.card{
+   width:18%;
+   border: 2px solid red;
+   display: inline-block;
+   text-align: center;
+   /* padding: 10px; */
+   border-radius: 10px;
+   height: 60%;
+   color:red;
+   box-shadow: 5px 5px 12px gray;
+}
 
-/* trip-to-paris */
+.one{
+   margin-right: 50px;
+}
+
+.three{
+   margin-left: 50px;
+}
+
+.card p{
+   font-size: 30px;
+   color: red;
+   font-family: Segoe UI;
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.card del{
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+input[type="checkbox"]{
+  width: 18px; 
+  height: 18px; 
+}
+
+.ing{
+  margin-right: 40px;
+}
+
+.ptask{
+  color:black;
+  font-size: 22px;
+}
+
+.line{
+  width: 70%;
+  text-align:right;
+  margin-right:0;
+  color: black;
+  background-color: black;
+  height: 0.5px;
+}

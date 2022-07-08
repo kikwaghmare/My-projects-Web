@@ -1,81 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kartik's todo UI</title>
+    <title>TodoList-UX</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-        
 </head>
-
 <body>
-    <div class="container" id="blur">
-        <div class="heading">
-            <h1 class="title">Tasks <span class="title-span">Lists</span> </h1>
-        </div>
-        <div class="add-button">
-            <span class="material-symbols-outlined">
-                add_circle
-            </span>
-            <font class="open-button" onclick="toggle()">Add List</font>
-        </div>
-
-        <div class="grid-container">
-            <a href="./trip-to-paris.html" class="grid-item">
-                    <font>Trip to Paris</font>
-                    <hr><br>
-                    <font>Complete Task</font><br><br>
-                    <input type="checkbox" name="pending-task" id="pending-task" value="pending-task">
-                    <label for="pending-task">Pending Task</label>
-            </a>
-            <a href="./trip-to-paris.html" class="grid-item">
-                <font>My Todo List</font>
-                <hr><br>
-                <font>Complete Task</font><br><br>
-                <input type="checkbox" name="pending-task" id="pending-task" value="pending-task">
-                <label for="pending-task">Pending Task</label>
-            </a>
-
-            <a href="./trip-to-paris.html" class="grid-item">
-                <font>My Todo List</font>
-                <hr><br>
-                <font>Complete Task</font><br><br>
-                <input type="checkbox" name="pending-task" id="pending-task" value="pending-task">
-                <label for="pending-task">Pending Task</label>
-            </a>
-        </div>
-        <span class="material-symbols-outlined">
-            add_circle
-            </span>
-    </div>
-
-
-
-    <div id="popup">
-        <form action="">
-            <div class="add-task">
-                <label for="email"><b>Add New List</b></label><br><br>
-                <input type="text" placeholder="" name="task" required><br><br>
-                <input type="submit" value="ADD" class="add">
-                <!-- <button type="submit" class="btn">Add</button> -->
-                <!-- <a href="#" onclick="toggle()">Close</a> -->
+        <div class="cont">
+            <div class="head">
+                
+                    <div class="task"><b>Tasks </b><span>Lists</span></div>
+                    <div class="add">
+                        <ion-item>
+                            <ion-icon class="icon"><a href="add.html"><img src="plusIcon.png" alt=""></a></ion-icon> 
+                            <a href="add.html" class="text"><span>&nbsp;Add List</span></a>
+                        </ion-item>
+                    </div>
             </div>
-        </form>
-    </div>
-
-    <script>
-        function toggle() {
-            var blur = document.getElementById('blur');
-            blur.classList.toggle('active');
-            var popup = document.getElementById('popup');
-            popup.classList.toggle('active');
-        }
-    </script>
+            <br><br><br>
+            <div class="card one">
+                <a href="trip-to-paris.html"><p>Trip to Paris</p></a>
+                <hr class="line"><br>
+                <del>Completed Task</del><br><br><br>
+                <div class="ing">
+                <input class="check" type="checkbox" name="" id="">
+                <label for="check" class="ptask">&nbsp;Pending Task</label>
+                </div>
+            </div>
+            <div class="card">
+                <p>My Todo List</p>
+                <hr class="line"><br>
+                <del>Completed Task</del><br><br><br>
+                <div class="ing">
+                    <input class="check" type="checkbox" name="" id="">
+                    <label for="check" class="ptask">&nbsp;Pending Task</label>
+                </div>
+            </div>
+            <div class="card three">
+                <p>My Todo List</p>
+                <hr class="line"><br>
+                <del>Completed Task</del><br><br><br>
+                <div class="ing">
+                    <input class="check" type="checkbox" name="" id="">
+                    <label for="check" class="ptask">&nbsp;Pending Task</label>
+                </div>
+            </div>
+        </div>
 </body>
-
 </html>
