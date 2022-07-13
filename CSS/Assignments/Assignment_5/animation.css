@@ -1,0 +1,170 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.sky {
+    height: 100vh;
+    width: 100%;
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.road {
+    height: 200px;
+    width: 1000%;
+    display: block;
+    background-image: url(road.jpg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-repeat: repeat;
+    animation: road 5s linear infinite;
+}
+
+@keyframes road {
+    100% {
+        transform: translateX(-2000px);
+    }
+}
+
+.city {
+    height: 200px;
+    width: 1000%;
+    background-image: url(city.png);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat;
+    animation: city 20s linear infinite;
+}
+
+@keyframes city {
+    100% {
+        transform: translateX(-1500px);
+    }
+}
+
+.car {
+    width: 400px;
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+}
+
+.car img {
+
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+
+@keyframes car {
+    0% {
+        transform: translateY(-4px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-4px);
+    }
+}
+
+.wheel {
+
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 185px;
+    z-index: 2;
+}
+
+.wheel img {
+    width: 72px;
+    height: 72px;
+    animation: wheel 1s linear infinite;
+}
+
+@keyframes wheel {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.frontwheel {
+    position: absolute;
+    left: 80px;
+}
+
+.backwheel {
+    position: absolute;
+    left: -165px;
+}
+
+.heading {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 32%;
+    margin-left: 27%;
+}
+
+.class1{
+    font-size: 70px;
+    padding: 0;
+    margin: 2px;
+}
+
+.span1{
+    background-color: orange;
+    margin: 5px;
+}
+
+ .span2{
+    background-color: white;
+    margin: 5px;
+}
+
+.span3 {
+    background-color: green;
+    margin: 5px;
+}
+
+.sun {
+    position: relative;
+    left: 75%;
+    bottom: 20px;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+.flag1 {
+    width: 40px;
+    height: 20vh;
+    position: absolute;
+    top: 53vh;
+    left: 53.5vw;
+    animation: linear flag2 0.8s infinite;
+}
+
+@keyframes flag2 {
+    from {
+        top: 53vh;
+    }
+
+    to {
+        top: 52.8vh;
+    }
+}
