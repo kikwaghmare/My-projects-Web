@@ -1,0 +1,16 @@
+#box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+   background-image: conic-gradient( 
+   
+   blue 0deg, 90deg ,
+    red 90deg 270deg,
+    orange 270deg 360deg
+                                                    
+   );
+}
+
+.test1{
+    
+}
