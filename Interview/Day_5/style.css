@@ -1,0 +1,26 @@
+/* Grid layout module is the two diamentional 
+layout that you use for creating responsive webpages.
+Grid item can be aranged in columns s well rows. */
+
+.grid-container{
+    display: grid;
+    grid-template-columns:auto auto auto ;
+    background-color: blueviolet;
+    gap 10px 20px;
+}
+.child-container{
+    background-color: aqua;
+    border 1px solid red;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    }
+
+    .one{
+    grid-column: 1/ -1;
+    }
+    .two{
+        grid-row: 2/4;
+    }
+
+    
