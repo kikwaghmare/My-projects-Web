@@ -20,13 +20,6 @@ const Hello = function(){
     return result;
   }; 
 
-// 4."Print output: 
-//var x = 21;
-//var girl = 21 () {
-  //  console.log(x);
-    //var x = 20;
-//};
-//girl ();
 
 // 4."Print output: 
 var x = 21;
