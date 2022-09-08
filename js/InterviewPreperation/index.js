@@ -1,30 +1,29 @@
-// 1. What is the Dfirrence between "==" and "===" operators.
-​
-// the maine difference between these two operators is that the "==" operator compares only the value between two variables 
-//whereas the "===" operatos compares the value and also the data type between two variables.
-​
+/**
+ * 1. What is the Dfirrence between "==" and "===" operators.
+the maine difference between these two operators is that the "==" operator compares only the value between two variables 
+whereas the "===" operatos compares the value and also the data type between two variables.
+​**/
 var x = 10;
 console.log(x == "10"); // true because value of x = 10;
 console.log(x === "10"); // false because the data type of x is not a string
 ​
-// 2. What is a spread operator
-​
-// The spread opertor is a new addition to the set of operators in javascript. This opertors takes oan iterable(eg an array) and expands it into individual elements
-// This opertor is commonly used to main copies of objects and arrays to make it more readable and concise
-​
+/** 2. What is a spread operator
+The spread opertor is a new addition to the set of operators in javascript. This opertors takes oan iterable(eg an array) and expands it into individual elements
+This opertor is commonly used to main copies of objects and arrays to make it more readable and concise
+​**/
 const arrayOne = ["a","b","c"];
 const arrayTwo = [1,2,3];
 const CombineArray = [...arrayOne,...arrayTwo];
 console.log(CombineArray); // ['a', 'b', 'c', 1, 2, 3]
 ​
-//3. What is the differnece between var, let and const?
+/** 3. What is the differnece between var, let and const?
+
+ var, let and const are javascript keywords used to declare variables
 ​
-// var, let and const are javascript keywords used to declare variables
-​
-// var - The var is global scoped, that means it can be accessible everywhere in the program. Global scope is the entire environment of Javascripte execution.
-// The var variables can be assigned new values or also redeclare the same varabel again i.e one can define a new value to the same var variable multiple times 
-// The var variables allow hoisting
-// examples of var 
+var - The var is global scoped, that means it can be accessible everywhere in the program. Global scope is the entire environment of Javascripte execution.
+The var variables can be assigned new values or also redeclare the same varabel again i.e one can define a new value to the same var variable multiple times 
+The var variables allow hoisting  **/
+examples of var 
 ​
 function f1(){
     var x = 150;
@@ -83,24 +82,22 @@ k = "Hello world";
 console.log(k);
 const k; //syntax error - Missing initializer in const declaration
 ​
-// Question 4.  What is the execution context
-//execution context is the environment created by javascript to exceute code.
-// it contains the code that is currently running and also everything that is neede to run the code
-//when a code runs -  an imaginary box is created which is called the execution context. It has two blocks -  the creation phase(memory) and execution phase(code)
-// There are mainly two types of execution context
-// i) Golbal execution context - This is the primary execution context
-// ii) Function Execution Context- whenever a funnction is alloted a memory in the creation phase, a new function execution context is created to execute the code inside the function
+/** Question 4.  What is the execution context
+execution context is the environment created by javascript to exceute code.
+it contains the code that is currently running and also everything that is neede to run the code
+when a code runs -  an imaginary box is created which is called the execution context. It has two blocks -  the creation phase(memory) and execution phase(code)
+There are mainly two types of execution context
+i) Golbal execution context - This is the primary execution context
+ii) Function Execution Context- whenever a funnction is alloted a memory in the creation phase, a new function execution context is created to execute the code inside the function
+​**/
 ​
-​
-//Question 5. What is creation phase and execution phase
-//in the creation phase, the variable are allocated a memory but does not start its execution
-//Any variable in the creation phase will not have a value and tis value is undefined
-//A function is copied as it is and given a memory in this phase.
-​
-//In the excution phase, the code is executed. The values of the variabels are updated
-//when the functions are executed, a new function execution context is created toe execute the code inside the function
-​
-​
+/** Question 5. What is creation phase and execution phase
+in the creation phase, the variable are allocated a memory but does not start its execution
+Any variable in the creation phase will not have a value and tis value is undefined
+A function is copied as it is and given a memory in this phase.
+In the excution phase, the code is executed. The values of the variabels are updated
+when the functions are executed, a new function execution context is created toe execute the code inside the function
+**/
 /** Question 6. What is meant by first class fucntions
 A function is said to be first class function if it is treated like other variables. These functions can be stored as a value in a variable
 The functions can be passed as an argument to another functions and can also be returned by another function
