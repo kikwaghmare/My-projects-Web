@@ -1,0 +1,80 @@
+#button1{
+    height: 30px;
+    width: 100px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+#button1:active{
+    transform: translate(4px, -4px);
+}
+
+#getbacktext{
+    height: 30px;
+    width: 100px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s; 
+}
+
+#button2{
+    height: 30px;
+    width: 100px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+#hide{
+    height: 30px;
+    width: 100px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+#unhide{
+    height: 30px;
+    width: 100px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+#hours{
+    font-size: 20px;
+    color: black;
+    height: 25px;
+    width: 30px;
+    background-color: yellow;
+}
+
+#minute{
+    font-size: 20px;
+    color: black;
+    height: 25px;
+    width: 30px;
+    background-color: yellow;
+    display: inline;
+}
+
+#secs{
+    font-size: 20px;
+    color: black;
+    height: 25px;
+    width: 30px;
+    background-color: yellow;
+    display: inline;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
