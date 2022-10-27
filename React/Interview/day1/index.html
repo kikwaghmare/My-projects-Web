@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik's Document</title>
+</head>
+<body>
+
+<h2>React Interview Questions Day 1</h2>
+<br>
+    <ol>
+        <li>
+            <h3>What is Virtual DOM</h3>
+        </li>
+        <p>
+            Virtual Document Object Model. 
+            The DOM represents the web page as a tree structure. Any piece of html that we writes is added to a node, to this tree. With JS, we can access any of these nodes(html elements) and update their styles, attributes etc
+            React, behind the scenes, creates an entires copy of the actual DOM of the app/project.
+            Any manipulation done in the data (DOM tree node) will only re-render that particular node in the actual DOM instead of re-rendering the entire actual DOM.
+            it saves time and only updates what is needed. It improves efficiency
+        </p> <br>
+
+        <li>
+           <h3>What is SPA ? </h3>
+        </li>
+        <p>
+            SPA stands for Single Page App. it is a web application that instead of using the default method of loading new pages completely, it takes new data from the webserver by interacting with the web browser and refreshes the current page.
+            it is fast and easy to update.
+            Also, only one html file is used for a react app, therfore a single page app. Using react-router domt, we feel that the app consists of different pages but only one HTML file is used.
+
+        </p> <br>
+
+        <li>
+            <h3> what are the differences between Class component and Function Component ?</h3>
+        </li>
+        <ul>
+            <li>
+                A Functional Component is plain JavaScript pure function that accepts props as arguments and returns a React element(jsx)
+                A Class Component requires you to extend from the React.Component and create a render function which returns a React element
+            </li>
+            <li>
+                Function Components do not have a render function. A class components needs a render function to display contents on webpage
+            </li>
+            <li>
+                Functional Components are stateless components as they simply accept data and display them in some form, that are maintl responsible for rendering UI.
+                Class Components are called stateful components because they implement states
+            </li>
+            <li>
+                React lifecycle methods cannot be used in functional components. React lifecycle methods can be used inside Class Component(for eg componentDidMount )
+            </li>
+            <li>
+                Hooks can be used in functional component to make them stateful for eg(useState)
+                in Class component we need to use the constructor function and super function 
+            </li>
+            <li>
+                Functional components do not have constructors. Class components use constructors to store the state
+            </li>
+        </ul> <br>
+
+        <li>
+            <h3>What do you mean by state and its use in react ?</h3>
+        </li>
+        <p>
+            State is a react object that is used to contain data or information about the component. 
+            A component state can change over time, whenver it changes the component re-renders. 
+            The state object is initilized in the constructor. states are mutable.
+            a state object can store multiple properties. this.setState() is used to change the value of the state object. this function performs a shallow merge between the new and previous state.
+        </p> <br>
+
+        <li>
+            <h3>
+                What is JSX and why do we use it instead of js?
+            </h3>
+            <p>
+                JSX stands for JavaScript Xml. JSX allows us to write HTML elements in JavaScript and place them in the DOM without using any createElement and appendChild() methods.
+                JSX converts html tags into react elements.
+                It is not mandatory to use jsx but it makes it easiers to write react applications.
+            </p> <br>
+        </li>
+        <li>
+            <h3>What is package.json</h3>
+            <p>
+                The package.json file is installed when we create a react app. it is the heart of any React Project.
+                it contains all the metadata and dependencies of the application. 
+                This is a erquired file to run the react application.
+
+                A package.json file lists the packages your project needs and specifies the version of a package that your project can use
+            </p>
+        </li>
+    </ol>
+
+
+</body>
+</html>
