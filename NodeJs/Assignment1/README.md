@@ -1,0 +1,3 @@
+What is NodeJS ?
+
+Node.js is an open-source, corss-platform JavaScript runtime environment and library for running web applications outside the clients browser. Ryan Dahl developed nodejs in 2009, and its latest iteration, version 15.14 was released in April 2021. Developers use node.js to create server-side web applications, and its perfect for data-intensive applications since it uses an asynchronous model
