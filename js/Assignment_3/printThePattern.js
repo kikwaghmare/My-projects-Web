@@ -5,5 +5,5 @@ const Print_pattern = (N) =>
     str += "*";
     console.log(str);
   }
-};
+}; 
 
