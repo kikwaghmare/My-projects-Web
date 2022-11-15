@@ -10,7 +10,7 @@ const Max_out_of_three = (A,B,C) => {
      
     if(B>A && A>C) {
       return B;
-    }
+    } 
     
     if(B>C && C>A) {
       return B;
