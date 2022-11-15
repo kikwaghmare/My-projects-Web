@@ -9,6 +9,6 @@ const findRelation = (x,y) => {
     
     if(x == y) {
       return x + " is equal to " + y;
-    }
+    } 
 };
 
