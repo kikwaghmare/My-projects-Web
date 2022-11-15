@@ -10,4 +10,4 @@ const Triangle_Check = (A,B,C) => {
       
   };
   
-  
+   
