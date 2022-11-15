@@ -12,7 +12,7 @@ const Calculator = (A, B, C) =>
 	  case "/": {
 	    return B/C
 	    break;
-	  }
+	  } 
 	  case "*": {
 	    return B*C;
 	    break;
