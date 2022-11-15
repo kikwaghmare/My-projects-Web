@@ -10,4 +10,4 @@ const Find_Digits = (N) =>
     
   }
 	 return count;
-};
+}; 
