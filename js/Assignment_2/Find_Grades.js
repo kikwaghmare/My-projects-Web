@@ -12,7 +12,7 @@ const findGrades = (a) => {
     }
     
     else if ((a >= 31) && (a <= 40)) {
-      return "B";
+      return "B"; 
     }
     
     else if ((a >= 41) && (a <= 50)) {
