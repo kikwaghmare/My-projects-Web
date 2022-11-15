@@ -11,7 +11,7 @@ const findSndSmallest = (x,y,z) => {
      return x;
    }
    
-   if(y>z && z>x) {
+   if(y>z && z>x) { 
      return z;
    }
      
