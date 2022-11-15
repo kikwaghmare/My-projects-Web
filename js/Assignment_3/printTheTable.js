@@ -5,3 +5,4 @@ const Print_Table = (N) =>
 	  console.log(N + " * " + i + " = " + product);
 	}
 };
+ 
