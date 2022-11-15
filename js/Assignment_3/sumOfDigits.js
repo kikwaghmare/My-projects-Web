@@ -12,5 +12,5 @@ const Number_Sum = (N) =>
     }
   }
   
-  return sum;
+  return sum; 
 };
