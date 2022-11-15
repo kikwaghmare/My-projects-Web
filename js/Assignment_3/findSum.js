@@ -9,4 +9,4 @@ const findSum = (n) => {
     
     return count;
   };
-  
+   
