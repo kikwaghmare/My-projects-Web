@@ -7,7 +7,7 @@ const Find_Five = (N) =>
 	 while(flag) {
 	   if(num%10===5) {
 	     count++;
-	   }
+	   } 
 	   val = num - num%10;
 	   num = val/10;
 	   if(num < 1) {
