@@ -9,7 +9,7 @@ const Prime_Check = (N) =>
   
   else if(N === 2) {
     
-    return "YES";
+    return "YES"; 
   }
   
   for(let i = 2; i <= c; i++) {
