@@ -6,4 +6,4 @@ const printNumbers = (n) => {
     }
     
     console.log(str);
-};
+}; 
