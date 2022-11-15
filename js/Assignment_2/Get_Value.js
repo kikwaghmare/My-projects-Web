@@ -11,7 +11,7 @@ const getValue = (a) => {
       case "Z" : {
         return "Zenith";
       }
-      
+       
       case "z" : {
         return "Zenith";
       }
