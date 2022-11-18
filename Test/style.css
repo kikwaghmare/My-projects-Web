@@ -1,0 +1,32 @@
+body{
+    margin: auto;
+    background: black;
+    text-align: center;
+}
+div{
+    width: 130px;
+    height: 130px;
+    background-color: brown;
+    position: relative;
+    animation-name: test;
+    animation-duration: 6s;
+    outline: 5px solid navy;
+    outline-offset: -3px;
+}
+h1{
+    font-size: 120px;
+    color: aliceblue;
+    text-align: center;
+}
+@keyframes test {
+    0% {background-color: brown;left:0px;top: 0px;}
+    25%{background-color: white;left:90%;top: 0px;}
+    50%{background-color: rgb(125, 20, 206);left:90%;top: 450px;}
+    75%{background-color: rgb(162, 151, 170);left:0px;top: 450px;}
+    100%{background-color: rgb(86, 71, 71);left:0px;top: 0px;}
+}
+@media screen and (max-width 720px){
+    div,h1{
+        width: 100%;
+    }
+}
