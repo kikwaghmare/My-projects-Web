@@ -9,7 +9,7 @@ function enterName(nameoffriend, callback) {
     callback(nameoffriend);
 }
 ​
-enterName("Gautam", greeting)
+enterName("kartik", greeting)
 ​
 //Question 2. Wrtie a Callback function to print numbers from 1 to 7,
 //in which 1 should be printed after 1 sec, 2 should be printed after 2 sec
